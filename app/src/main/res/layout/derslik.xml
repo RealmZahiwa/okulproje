@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/derslik_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Derslik"
+        android:textSize="28dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/derslik_btn_select"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/round_btn"
+        android:text="SELECT"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/derslik_btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_btn"
+        android:text="INSERT"
+        android:textColor="@color/white"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/derslik_btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/round_btn"
+        android:text="UPDATE"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:textSize="22dp" />
+
+</LinearLayout>
